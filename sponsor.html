@@ -1,13 +1,131 @@
 <!DOCTYPE html>
-<HTml>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sponsor</title>
         <link rel="stylesheet" href="csssheet.css">
+        <style>
+            /* Inline styles for sponsor page improvements */
+            .sponsor-banner {
+                width: 100%; /* Make the image span the full width of the container */
+                max-width: 800px; /* Limit the maximum width */
+                height: auto; /* Maintain aspect ratio */
+                margin: 20px auto; /* Center the image with spacing */
+                display: block; /* Ensure the image is treated as a block element */
+                border-radius: 10px; /* Optional: Add rounded corners */
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+            }
+
+            .sponsor-section {
+                background-color: #1e1e1e; /* Dark gray background */
+                color: #fbbd18; /* Custom yellow text */
+                padding: 30px;
+                margin: 20px auto;
+                border-radius: 10px;
+                max-width: 800px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+                text-align: center;
+            }
+
+            .sponsor-section h2 {
+                color: #1e69de; /* Blue heading */
+                margin-bottom: 20px;
+                font-size: 2rem;
+            }
+
+            .sponsor-section ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 20px 0;
+            }
+
+            .sponsor-section ul li {
+                background-color: #121212; /* Dark background for list items */
+                color: #fbbd18; /* Custom yellow text */
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            }
+
+            .sponsor-section button {
+                background-color: #1e69de; /* Blue button */
+                color: #fff; /* White text */
+                border: none;
+                padding: 12px 25px; /* Increase padding for better appearance */
+                border-radius: 8px; /* Slightly rounded corners */
+                font-size: 1.2rem; /* Larger font size for emphasis */
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.3s ease;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+            }
+
+            .sponsor-section button:hover {
+                background-color: #fbbd18; /* Yellow on hover */
+                color: #000; /* Black text on hover */
+                transform: scale(1.1); /* Slightly enlarge on hover */
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Enhance shadow on hover */
+            }
+
+            .sponsor-section a {
+                text-decoration: none;
+                color: inherit;
+            }
+            /* Header */
+.main-header {
+    background-color: #000; /* Black background */
+    color: #fbbd18; /* Custom yellow for text */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #1e69de; /* Blue border for separation */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.team-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    margin-top: 20px;
+}
+
+.nav-bar button {
+    background-color: #1e69de; /* Blue buttons */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-bar button:hover {
+    background-color: #fbbd18; /* Yellow on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+        </style>
     </head>
     <body>
-        
         <header>
             <div class="header-content">
                 <img src="teamlogo.png" alt="Team Logo" class="team-logo">
@@ -25,15 +143,17 @@
             <section class="sponsor-section">
                 <h2>Sponsor Page</h2>
                 <p>We offer sponsorship opportunities on our website and social media pages.</p>
-                <p>The price for our sponsorship:</p>
+                <p><strong>Pricing:</strong></p>
                 <ul>
                     <li>$10 per post on our social media page</li>
                     <li>$20 per day for a post on our website</li>
                     <li>$30 for a post on both our social media page and website</li>
                 </ul>
                 <p>If you are interested in sponsoring us, please fill out the form below:</p>
-                <button style="background-color: #fbbd18;"><a href="https://www.surveymonkey.com/r/GVYJNVQ">Sponsor Form</a></button>
+                <button>
+                    <a href="https://www.surveymonkey.com/r/GVYJNVQ" target="_blank">Sponsor Form</a>
+                </button>
             </section>
         </main>
     </body>
-</HTml>
+</html>
