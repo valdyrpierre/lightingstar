@@ -149,3 +149,59 @@ footer {
     opacity: 0.9; /* Slightly reduce opacity on hover */
 }
 
+/* Responsive Styles for Mobile */
+@media (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    header .team-logo {
+        width: 60px;
+    }
+
+    header .team-name {
+        font-size: 1.5rem;
+    }
+
+    nav button {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+        margin: 5px 2px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .roster h2 {
+        font-size: 1.3rem;
+    }
+
+    .position-section h3 {
+        font-size: 1.1rem;
+    }
+
+    .roster-scroll .player-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .player-card img {
+        width: 60px;
+        height: 60px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .player-card h3,
+    .player-card p {
+        font-size: 1rem;
+    }
+
+    .social-logo {
+        width: 40px;
+        height: 40px;
+    }
+}
+
